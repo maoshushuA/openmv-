@@ -1,0 +1,12 @@
+本程序需要配合TB6612FNG电机驱动模块使用
+可用于openmv3和以上版本
+将main.py和car.py考入单片机片上flash
+接线如下
+AIN1=P0
+AIN2=P1
+BIN1=P2
+BIN2=P3
+STBY=P4
+PWMA=P7（右电机）
+PWMB=P8（左电机）
+
